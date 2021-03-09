@@ -1,0 +1,95 @@
+.main-header {
+  .el-autocomplete {
+    width: 100%;
+
+    .el-input-group__append {
+      .el-button {
+        padding: 5px;
+      }
+    }
+  }
+
+  .el-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+
+    .el-form-item {
+      margin: 0px;
+
+      .el-form-item__content {
+        button {
+          width: 100%;
+        }
+
+        .el-select {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+button.el-carousel__button {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  opacity: 0.4;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  background-color: #111;
+}
+
+.el-carousel__item {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.flip-countdown {
+  .flip-clock {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flip-clock__piece {
+    .flip-clock__card {
+      font-size: 2.2vw;
+    }
+
+    .flip-clock__slot {
+      color: #fff;
+      font-size: 1.2vw;
+    }
+  }
+}
+
+.el-dialog__header {
+  background-color: #0a6f3c;
+  color: #fff;
+  font-weight: 500;
+}
+
+.register {
+  .el-form {
+    .el-input {
+      .el-input__suffix {
+        color: green;
+      }
+    }
+  }
+}
+
+.dialog-login {
+  .el-form {
+    .el-input {
+      .el-input__suffix {
+        color: green;
+      }
+    }
+  }
+}
